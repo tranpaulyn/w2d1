@@ -13,7 +13,7 @@ function getAndPrintHTML () {
         response.setEncoding('utf8');
 
         response.on('data', function(chunk) {
-                    // console.log('[-- CHUNK OF LENGTH ' + chunk.length + ' --]');
+                    console.log('[-- CHUNK OF LENGTH ' + chunk.length + ' --]');
                     console.log(chunk.toString());
                 });
   
