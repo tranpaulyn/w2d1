@@ -26,3 +26,6 @@ function printHTML (html) {
 
 getHTML(requestOptions, printHTML);
 
+module.exports = {
+    getHTML: getHTML
+}
